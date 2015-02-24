@@ -1,0 +1,1 @@
+gcc -Wall main.c card.c -o a.out
