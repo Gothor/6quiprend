@@ -10,6 +10,7 @@ Player* createPlayer(const char* name, int ai) {
     player->name = strdup(name);
     player->ai = ai;
     player->nbCards = 0;
+    player->score = 0;
     player->cards = malloc(sizeof(*player->cards) * 10);
     memset(player->cards, 0, 10 * sizeof(*player->cards));
     

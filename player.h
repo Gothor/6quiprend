@@ -6,10 +6,11 @@
 typedef struct Player Player;
 
 struct Player {
-	char* name;
-	int ai;
+    char* name;
+    int ai;
     int nbCards;
-	Card** cards;
+    Card** cards;
+    int score;
 };
 
 Player* createPlayer(const char* name, int ai);
